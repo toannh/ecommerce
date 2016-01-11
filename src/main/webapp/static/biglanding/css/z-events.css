@@ -1,0 +1,43 @@
+/* 20/11 */
+.event-20141120{
+	background:url(../images/events/20141120/header-bg.jpg) repeat top center #3b6e33;
+}
+.event-20141120 .logo{
+	padding-top:5px;
+}
+.event-20141120 .box-search{
+	margin:0 0 0 8px;
+}
+/* 24/12 */
+.event-20141224{
+	background:url(../images/events/20141224/xmas-bg2.png) no-repeat top center #fff;
+}
+.event-20141224 .event-hat{
+	width:42px;
+	height:31px;
+	position:absolute;
+	z-index:100;
+	margin-left:-5px;
+	margin-top:-10px;
+}
+@media (max-width: 1199px){
+	.event-20141224{
+		background:url(../images/events/20141224/xmas-bg2.png) repeat-x -6px top #fff;
+	}
+}
+/* end 24/12 */
+/* newyear2015 */
+.event-newyear2015{
+	background:url(../images/events/newyear2015/newyear2015.png) no-repeat top center #fff;
+}
+@media (max-width: 1199px){
+	.event-newyear2015{
+		background:url(../images/events/newyear2015/newyear2015.png) no-repeat 60px top #fff;
+	}
+}
+@media (max-width: 320px){
+	.event-newyear2015{
+		background:url(../images/events/newyear2015/newyear2015.png) no-repeat 20px top #fff;
+	}
+}
+/* end newyear2015 */

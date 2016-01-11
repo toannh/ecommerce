@@ -1,0 +1,7 @@
+.hi-bullet{
+	background:url(../images/home-intro-more.png) no-repeat;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	vertical-align:middle;
+}

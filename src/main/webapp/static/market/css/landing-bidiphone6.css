@@ -1,0 +1,158 @@
+.lbi6-bg{
+	background:url(../images/landing/landing-bidiphone6/bg2.jpg) repeat #000;
+}
+.lbi6-bg-inner{
+	background:url(../images/landing/landing-bidiphone6/bg.jpg) no-repeat top center;
+	background-size:100%;
+	padding:35px 0 0;
+}
+.lbi6-bg-top{
+	border-top:1px solid #8c8c8c;
+	border-bottom:1px solid #8c8c8c;
+	overflow:hidden;
+}
+.lbi6-bg-text1{
+	float:left;
+	padding:25px 0 0;
+	width:29%;
+}
+.lbi6-bg-text2{
+	float:left;
+	border-left:1px solid #8c8c8c;
+	width:71%;
+}
+.lbi6-bg-content{
+	padding:85px 0 0;
+}
+.lbi6-bg-iphone{
+	text-align:center;
+	padding:0 0 30px 20px;
+}
+.lbi6-bg-text3{
+	margin:0 0 10px;
+}
+.lbi6-bg-text4{
+	margin:0 0 15px;
+}
+.lbi6-bg-text5{
+	margin:0 0 15px;
+}
+.lbi6-bg-button{
+	margin:0 0 25px;
+	position:relative;
+	z-index:10;
+}
+.lbi6-bg-button .btn{
+	border:none;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+.lbi6-bg-button .btn-success{
+	background:#a4d200;
+}
+.lbi6-bg-button .btn-lg{
+	font-size:20px;
+	padding:15px 30px;
+	font-weight:normal;
+}
+.lbi6-img{
+	overflow:hidden;
+	margin:0 0 30px;
+}
+.lbi6-img img{
+	width:20%;
+	float:left;
+}
+.lbi6-title{
+	margin:0 0 30px;
+}
+.lbi6-dv{
+	margin-bottom:30px;
+}
+.lbi6-comment-title{
+	margin-bottom:15px;
+}
+.lbi6-comment-title label{
+	text-transform:uppercase;
+	font-size:20px;
+	color:#414141;
+	font-weight:bold;
+}
+.lbi6-comment{
+	margin:0 0 30px;
+}
+@media (max-width: 1199px){
+	.lbi6-bg-content{
+		padding:50px 0 0;
+	}
+	.lbi6-bg-text3{
+		padding-right:15px;
+	}
+	.lbi6-bg-text4{
+		margin-right:10px;
+	}
+	.lbi6-bg-text5{
+		margin-right:10px;
+	}
+}
+@media (max-width: 991px){
+	.lbi6-bg-content{
+		padding:20px 0 0;
+	}
+	.lbi6-bg-text3{
+		padding-left:15px;
+	}
+	.lbi6-bg-button{
+		padding-left:15px;
+	}
+	.lbi6-bg-text4{
+		padding-left:15px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.lbi6-bg-text4{
+		padding:0 15px;
+		margin:0;
+	}
+	.lbi6-bg-text5{
+		padding:0 15px;
+	}
+}
+@media only screen and (max-width: 533px){
+	.lbi6-bg-top{
+		border-top:none;
+		border-bottom:none;
+	}
+	.lbi6-bg-text1{
+		float:none;
+		padding:0;
+		width:auto;
+		text-align:center;
+	}
+	.lbi6-bg-text2{
+		float:none;
+		width:auto;
+		border-left:none;
+	}
+}
+@media only screen and (max-width: 480px){
+	.lbi6-img img{
+		width:50%;
+	}
+	.fb-like{
+		display:none;
+	}
+	.lbi6-bg-iphone{
+		padding:0 15px 30px;
+	}
+}
+@media only screen and (max-width: 360px){
+	.lbi6-bg-button{
+		padding-right:15px;
+	}
+	.lbi6-bg-button .btn{
+		width:100%;
+		display:block;
+	}
+}

@@ -1,0 +1,22 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>
+    <definition name="biglanding.layout" template="/view/biglanding/layout.jsp">
+        <put-attribute name="navigator" value="/view/biglanding/widget/navigator.jsp"/>
+        <put-attribute name="header" value="/view/biglanding/widget/header.jsp"/>
+        <put-attribute name="footer" value="/view/biglanding/widget/footer.jsp"/>
+    </definition>
+    <definition name="biglanding.index" extends="biglanding.layout">
+        <put-attribute name="content" value="/view/biglanding/biglanding/index.jsp"/>
+    </definition>
+    <definition name="biglanding.browse" extends="biglanding.layout">
+        <put-attribute name="content" value="/view/biglanding/biglanding/browse.jsp"/>
+    </definition>
+    <definition name="intro.landingfreeday" extends="biglanding.layout">
+        <put-attribute name="title" value="Ngày Miễn Phí - ChợĐiệnTử.VN" />
+        <put-attribute name="content" value="/view/intro/freeday.jsp" />
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,208 @@
+@media (min-width: 1200px){
+}
+@media (max-width: 1199px){
+	.container{
+		width:970px;
+	}
+	.box-slider{
+		height:530px;
+	}
+	.bs-caption{
+		top:15px;
+	}
+	.howto-item .hi-text{
+		font-size:10px;
+	}
+	.howto-more .hm-title{
+		font-size:20px;
+	}
+}
+@media (max-width: 991px){
+	.container{
+		width:750px;
+	}
+	.box-slider{
+		height:485px;
+	}
+	.bs-caption h3{
+		font-size:36px;
+		line-height:48px;
+	}
+	.box-slider .bs-list{
+		margin:35px auto 0;
+	}
+	.support-title{
+		margin:0 0 2px;
+	}
+	.support-desc{
+		margin:0 0 7px;
+	}
+	.howto-item{
+		width:48%;
+		float:left;
+		margin:0 2% 30px 0;
+	}
+	.howto-list .howto-item:nth-child(3n+3){
+		margin:0 2% 30px 0;
+	}
+	.howto-list .howto-item:nth-child(2n+2){
+		margin:0 0 30px 2%;
+	}
+	.howto-item .hi-text{
+		font-size:12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.bg-blue .bb-list .grid{
+		float:none;
+		width:auto;
+		margin:0 0 25px;
+	}
+}
+@media (max-width: 767px){
+	.container{
+		width:auto;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.box-click .bc-img{
+		position:static;
+	}
+	.box-click .bc-img .bc-more{
+		margin:15px 0 0;
+		background:#111a27;
+	}
+	.howto-item .hi-text{
+		font-size:12px;
+	}
+}
+@media (max-width: 640px) {
+	.footer{
+		padding:40px 0;
+	}
+	.howto-item .hi-thumb{
+		height:170px;
+	}
+	.howto-more{
+		height:205px;
+	}
+	.howto-more .hm-inner{
+		padding:40px 15px 0 0;
+	}
+	.howto-item .hi-text{
+		font-size:9px;
+	}
+}
+@media (max-width: 533px) {
+	.box-slider{
+		height:250px;
+	}
+	.box-slider .bs-img{
+		background-size:100%;
+	}
+	.box-slider .bs-list{
+		display:none;
+	}
+	.bs-caption h3{
+		font-size:24px;
+		line-height:32px;
+	}
+	.bg-blue .bb-list .grid{
+		float:none;
+		width:auto;
+		margin:0 0 25px;
+	}
+	.bg-support{
+		background-size:500%;
+	}
+	.support-list .grid{
+		float:none;
+		width:auto;
+	}
+	.howto-item{
+		margin-bottom:20px !important;
+	}
+	.howto-item .hi-text{
+		font-size:9px;
+		padding:0 5px;
+	}
+	.howto-item .hi-thumb{
+		height:145px;
+	}
+	.howto-more{
+		height:180px;
+	}
+	.howto-item .hi-text{
+		font-size:8px;
+	}
+}
+@media (max-width: 480px) {
+	.box-slider{
+		height:200px;
+	}
+	.footer .footer-more{
+		font-size:18px;
+	}
+	.bg-support{
+		background-size:600%;
+	}
+	.bg-howto{
+		padding:15px 0;
+		background-size:700%;
+	}
+	.howto-title{
+		font-size:20px;
+	}
+	.howto-list{
+		padding:15px 0 0;
+	}
+	.howto-item{
+		float:none;
+		width:auto;
+		margin:0 0 15px !important;
+	}
+	.howto-item .hi-thumb{
+		height:auto;
+	}
+	.howto-item .hi-text{
+		font-size:12px;
+		padding:0 10px;
+	}
+}
+@media (max-width: 360px) {
+	.box-slider{
+		height:170px;
+	}
+	.bs-caption h3{
+		font-size:18px;
+		line-height:26px;
+	}
+	.footer{
+		padding:30px 0;
+	}
+	.footer .footer-button{
+		width:auto;
+		display:block;
+	}
+	.bg-support{
+		background-size:800%;
+	}
+}
+@media (max-width: 320px) {
+	.box-slider{
+		height:150px;
+	}
+	.bs-caption h3{
+		font-size:16px;
+		line-height:24px;
+	}
+	.bg-support{
+		background-size:900%;
+	}
+	.bg-howto{
+		background-size:800%;
+	}
+	.howto-item .hi-text{
+		font-size:11px;
+	}
+}
